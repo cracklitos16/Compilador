@@ -75,8 +75,8 @@ public class InfoEquipo extends javax.swing.JFrame {
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("1.- Calderón Piña Carlos Michell.");
 
-        jButton1.setBackground(new java.awt.Color(0, 204, 0));
-        jButton1.setFont(new java.awt.Font("Consolas", 1, 14)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(0, 255, 0));
+        jButton1.setFont(new java.awt.Font("Consolas", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Regresar al Menú Principal.");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -180,7 +180,7 @@ public class InfoEquipo extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addGap(15, 15, 15)
                 .addComponent(jLabel9)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(7, Short.MAX_VALUE))
         );
 
         jLabel4.getAccessibleContext().setAccessibleName("");
